@@ -1,6 +1,6 @@
 ydlidar_ros2_driver_node:
   ros__parameters:
-    port: /dev/ttyUSB0
+    port: /dev/lidar_serial_port
     frame_id: laser_frame
     ignore_array: ""
     baudrate: 230400
@@ -8,7 +8,7 @@ ydlidar_ros2_driver_node:
     device_type: 0
     sample_rate: 9
     abnormal_check_count: 4
-    resolution_fixed: true
+    fixed_resolution: true
     reversion: true
     inverted: true
     auto_reconnect: true
